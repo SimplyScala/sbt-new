@@ -25,7 +25,6 @@ object Plugin extends Plugin {
 		print(s"project name [$assumedProjectName] : ")
 		val projectName = {
 			val prompt = readLine()
-			println(prompt)
 			if(prompt.trim.isEmpty) assumedProjectName
 			else prompt
 		}
