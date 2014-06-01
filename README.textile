@@ -4,7 +4,8 @@ A little sbt plugin to create sbt project.
 
 h2. How to install it
 
-clone the project
+<code>git clone git@github.com:SimplyScala/sbt-new.git</code>
+<code>cd $SBT_NEW_DIR</code>
 <code>sbt publish-local</code>
 Add <code>addSbtPlugin("com.github.simplyscala" % "sbt-new" % "0.1-SNAPSHOT")</code> in your $USER_HOME/.sbt/0.13/plugins/build.sbt
 
